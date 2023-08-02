@@ -1,0 +1,15 @@
+array는 연관된 data를 메모리상에 (연속적, 순차적)으로 (미리 할당된 크기)만큼 저장하는 자료구조
+
+핵심: 고정된 저장공간을 가지며(fixed size)
+      순차적 데이터 저장(order)
+
+장점: array는 look up과 append가 빠름 따라서 조회를 자주 해야되는 작업에서 많이 사용된다
+
+단점: array는 fixed-size 특성상 선언시에 미리 크기를 정해야함 -- 메모리 낭비나 추가적인 overhead 발생가능
+
+
+
+access, append, 마지막 원소 del -- O(1)
+insertion, deletion, search -- O(n)
+
+각 원소당 4byte 할당
