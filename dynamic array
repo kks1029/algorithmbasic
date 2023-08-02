@@ -1,0 +1,6 @@
+array--fixed size, ordered
+
+dynamic array는 이같은 array의 고정된 사이즈라는 단점을 해결하기 위해 resize를 통해 유동적으로 size를 조절하여 데이터를 저장하는 자료구조
+
+dynamic array는 size가 가득 차면 자동적으로 resizing을 실행하는 array임 data를 추가하다 기존 할당된 메모리를 초과하면 size를 늘린 배열을 선언하고 그 곳으로 모든 데이터를 옮긴다.
+
